@@ -1,271 +1,0 @@
-Tminesweeper
-v5
-r1
-cCheck dependencies
-cProcessInfoPlistFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist minesweeper/minesweeper-Info.plist
-cProcessPCH /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth minesweeper/minesweeper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o /Users/ilya/apps/minesweeper/minesweeper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cCompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o /Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-cLd /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper normal i386
-cGenerateDSYMFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper
-cCopyStringsFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj/InfoPlist.strings minesweeper/en.lproj/InfoPlist.strings
-cCpResource minesweeper/Default.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png
-cCpResource minesweeper/Default@2x.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png
-cCpResource minesweeper/Default-568h@2x.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png
-cTouch /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk
-c00000000514577FD0000000000000110
-t1363507197
-s272
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c00000000510718DF0000000000228FE0
-t1359419615
-s2265056
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c00000000510718E100000000003DDFA0
-t1359419617
-s4054944
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c00000000510718E000000000000015F7
-t1359419616
-s5623
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c00000000510718E50000000000000E8D
-t1359419621
-s3725
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c00000000510718E70000000000AB6230
-t1359419623
-s11231792
-
-N/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk/usr/include/Availability.h
-c00000000510718F80000000000001B73
-t1359419640
-s7027
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/minesweeper.LinkFileList
-c00000000514649F3000000000000012B
-t1363560947
-s299
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/PkgInfo
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj/InfoPlist.strings
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper
-t2
-s0
-
-N/Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m
-c00000000514649EF00000000000008D5
-t1363560943
-s2261
-
-N/Users/ilya/apps/minesweeper/minesweeper/Default-568h@2x.png
-c0000000050748B2300000000000048A2
-t1349815075
-s18594
-
-N/Users/ilya/apps/minesweeper/minesweeper/Default.png
-c0000000050748B23000000000000198C
-t1349815075
-s6540
-
-N/Users/ilya/apps/minesweeper/minesweeper/Default@2x.png
-c0000000050748B230000000000003EEB
-t1349815075
-s16107
-
-N/Users/ilya/apps/minesweeper/minesweeper/en.lproj/InfoPlist.strings
-c00000000514649EF000000000000002D
-t1363560943
-s45
-
-N/Users/ilya/apps/minesweeper/minesweeper/main.m
-c00000000514649EF0000000000000156
-t1363560943
-s342
-
-N/Users/ilya/apps/minesweeper/minesweeper/minesweeper-Prefix.pch
-c00000000514649EF0000000000000145
-t1363560943
-s325
-i<Availability.h>
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-Nminesweeper/minesweeper-Info.plist
-c00000000514649EF00000000000005AE
-t1363560943
-s1454
-
-CBuild AST from /Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m
-r0
-
-CBuild AST from /Users/ilya/apps/minesweeper/minesweeper/main.m
-r0
-
-CCheck dependencies
-r0
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependenciesccb3367381f6b641^e2cd3e7381f6b641^---0#1#0#--18"Check dependencies36"B96ECA43-6928-4115-A106-26AEACF06CDB-
-
-CCompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o /Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385253747.649322
-e385253747.756751
-r1
-xCompileC
-xDerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o
-x/Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection62"Compile /Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m6c5da67381f6b641^d8b9c17381f6b641^---0#0#0#-19%DVTDocumentLocation2@70"file://localhost/Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m0000000000000000^3692"CompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o minesweeper/AppDelegate.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ilya/apps/minesweeper    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-generated-files.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-own-target-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-all-target-headers.hmap -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-project-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources/i386 -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources -F/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator -include /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch -MMD -MT dependencies -MF /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.d --serialize-diagnostics /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.dia -c /Users/ilya/apps/minesweeper/minesweeper/AppDelegate.m -o /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/AppDelegate.o36"B76E42D9-3D56-48F6-A325-C34A780E8C06-
-
-CCompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o /Users/ilya/apps/minesweeper/minesweeper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385253747.649320
-e385253747.727428
-r1
-xCompileC
-xDerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o
-x/Users/ilya/apps/minesweeper/minesweeper/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection55"Compile /Users/ilya/apps/minesweeper/minesweeper/main.m815ca67381f6b641^6538ba7381f6b641^---0#0#0#-19%DVTDocumentLocation2@63"file://localhost/Users/ilya/apps/minesweeper/minesweeper/main.m0000000000000000^3650"CompileC DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o minesweeper/main.m normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ilya/apps/minesweeper    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-generated-files.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-own-target-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-all-target-headers.hmap -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-project-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources/i386 -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources -F/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator -include /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch -MMD -MT dependencies -MF /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.d --serialize-diagnostics /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.dia -c /Users/ilya/apps/minesweeper/minesweeper/main.m -o /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/main.o36"86C9B7E9-876D-4662-8D2A-11545405468A-
-
-CCopyStringsFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj/InfoPlist.strings minesweeper/en.lproj/InfoPlist.strings
-s385253747.829167
-e385253747.832274
-r1
-xCopyStringsFile
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj/InfoPlist.strings
-xminesweeper/en.lproj/InfoPlist.strings
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection43"Copy minesweeper/en.lproj/InfoPlist.strings1f69d47381f6b641^5e10d57381f6b641^---0#0#0#-19%DVTDocumentLocation2@83"file://localhost/Users/ilya/apps/minesweeper/minesweeper/en.lproj/InfoPlist.strings0000000000000000^613"CopyStringsFile DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj/InfoPlist.strings minesweeper/en.lproj/InfoPlist.strings    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copyStrings --validate --inputencoding utf-8 --outputencoding binary --outdir /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/en.lproj -- minesweeper/en.lproj/InfoPlist.strings36"24BF5081-E089-45A1-BC3C-6C0A3F4A0FD8-
-
-CCpResource minesweeper/Default-568h@2x.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png
-s385253747.830043
-e385253747.835322
-r1
-xCpResource
-xminesweeper/Default-568h@2x.png
-xDerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Copy DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png6892d47381f6b641^41d8d57381f6b641^---0#0#0#-19%DVTDocumentLocation2@129"file://localhost/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png000000000080d041^632"CpResource "minesweeper/Default-568h@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default-568h@2x.png"    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilya/apps/minesweeper/minesweeper/Default-568h@2x.png" /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app36"6417C8F1-3DDE-4E57-998E-182B387F2FDB-
-
-CCpResource minesweeper/Default.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png
-s385253747.829208
-e385253747.833204
-r1
-xCpResource
-xminesweeper/Default.png
-xDerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection81"Copy DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png0872d47381f6b641^554cd57381f6b641^---0#0#0#-19%DVTDocumentLocation2@121"file://localhost/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png000000000080d041^602"CpResource minesweeper/Default.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default.png    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/ilya/apps/minesweeper/minesweeper/Default.png /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app36"1E2D7581-DD03-4448-9111-A9AABF21281F-
-
-CCpResource minesweeper/Default@2x.png DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png
-s385253747.829609
-e385253747.834229
-r1
-xCpResource
-xminesweeper/Default@2x.png
-xDerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection84"Copy DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.pngb076d47381f6b641^658ed57381f6b641^---0#0#0#-19%DVTDocumentLocation2@124"file://localhost/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png000000000080d041^617"CpResource "minesweeper/Default@2x.png" "DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Default@2x.png"    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks "/Users/ilya/apps/minesweeper/minesweeper/Default@2x.png" /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app36"9FF931A6-11DB-41AA-88B9-14AAB49308AA-
-
-CGenerateDSYMFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper
-s385253747.802197
-e385253747.821446
-r1
-xGenerateDSYMFile
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection107"Generate /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM8274cd7381f6b641^064ad27381f6b641^---0#0#0#-19%DVTDocumentLocation2@114"file://localhost/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM000000000080d041^703"GenerateDSYMFile DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper -o /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app.dSYM36"37807810-DED5-4610-8EFB-9503BB2F9B4F-
-
-CLd /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper normal i386
-s385253747.763596
-e385253747.795925
-r1
-xLd
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper
-xnormal
-xi386
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection110"Link /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper7594c37381f6b641^f0c1cb7381f6b641^---0#0#0#--1224"Ld DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper normal i386    cd /Users/ilya/apps/minesweeper    setenv IPHONEOS_DEPLOYMENT_TARGET 6.1    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -L/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator -F/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator -filelist /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/Objects-normal/i386/minesweeper.LinkFileList -Xlinker -objc_abi_version -Xlinker 2 -fobjc-link-runtime -Xlinker -no_implicit_dylibs -mios-simulator-version-min=6.1 -framework UIKit -framework Foundation -framework CoreGraphics -o /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/minesweeper36"07FB165E-4F0F-424C-A39B-3528581FE1C1-
-
-CProcessInfoPlistFile /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist minesweeper/minesweeper-Info.plist
-s385253747.250119
-e385253747.254418
-r1
-xProcessInfoPlistFile
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist
-xminesweeper/minesweeper-Info.plist
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection42"Process minesweeper/minesweeper-Info.plist6020407381f6b641^5721417381f6b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/ilya/apps/minesweeper/minesweeper/minesweeper-Info.plist0000000000000000^711"ProcessInfoPlistFile DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist minesweeper/minesweeper-Info.plist    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility minesweeper/minesweeper-Info.plist -genpkginfo /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app/Info.plist36"DADA23E5-5C68-4297-BD1C-B11EE4B15265-
-
-CProcessPCH /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth minesweeper/minesweeper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler
-s385253747.262458
-e385253747.642469
-r1
-xProcessPCH
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth
-xminesweeper/minesweeper-Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.compiler
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection45"Precompile minesweeper/minesweeper-Prefix.pch2559437381f6b641^ee77a47381f6b641^---0#0#0#-19%DVTDocumentLocation2@79"file://localhost/Users/ilya/apps/minesweeper/minesweeper/minesweeper-Prefix.pch0000000000000000^3563"ProcessPCH DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth minesweeper/minesweeper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/ilya/apps/minesweeper    setenv LANG en_US.US-ASCII    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -std=gnu99 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-implicit-atomic-properties -Wno-receiver-is-weak -Wduplicate-method-match -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wenum-conversion -Wno-shorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wno-undeclared-selector -Wno-deprecated-implementations -DDEBUG=1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator6.1.sdk -fexceptions -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -fobjc-abi-version=2 -fobjc-legacy-dispatch -mios-simulator-version-min=6.1 -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-generated-files.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-own-target-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-all-target-headers.hmap -iquote /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/minesweeper-project-headers.hmap -I/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources/i386 -I/Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/minesweeper.build/Debug-iphonesimulator/minesweeper.build/DerivedSources -F/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator --serialize-diagnostics /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.dia -c /Users/ilya/apps/minesweeper/minesweeper/minesweeper-Prefix.pch -o /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.pth -MMD -MT dependencies -MF /Users/ilya/apps/minesweeper/DerivedData/Build/Intermediates/PrecompiledHeaders/minesweeper-Prefix-azugltcnsbgjprgtrziiucowrdvi/minesweeper-Prefix.pch.d36"C0BEBBD3-DFA0-4716-BECE-BEB416C97C21-
-
-CProcessPCH /Users/ilya/apps/minesweeper/DerivedData/minesweeper/Index/PrecompiledHeaders/minesweeper-Prefix-cmftagavydlcfbcpjtqtzhedvmfj_ast/minesweeper-Prefix.pch.pth minesweeper/minesweeper-Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.astbuilder
-r0
-
-CTouch /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app
-s385253747.842995
-e385253747.849998
-r1
-xTouch
-x/Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app
-lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection99"Touch /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app55ddd77381f6b641^0f9ad97381f6b641^---0#0#0#--418"Touch DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app    cd /Users/ilya/apps/minesweeper    setenv PATH "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Users/ilya/apps/minesweeper/DerivedData/Build/Products/Debug-iphonesimulator/minesweeper.app36"F936BB78-4978-468B-BF3F-B1E7DD3466AC-
-

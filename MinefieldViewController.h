@@ -12,4 +12,9 @@
 
 @interface MinefieldViewController : UIViewController
 @property  Minefield* gamefield;
+
+- (void) openPlaceOn: (PlaceButton *) sender;
+
+- (void) showResults;
+
 @end

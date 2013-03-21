@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+#include "PlaceButton.h"
+
 #define DEFAULT_X 10
 #define DEFAULT_Y 10
 #define DEFAULT_MINES 10
@@ -22,9 +24,16 @@ enum{
 };
 //game Result
 enum{
+  WAITING,
   WIN,
   FAIL,
   PLAY
+};
+
+//actions
+enum{
+    OPEN_PLACE = 1,
+    SET_FLAG   = 2
 };
 
 typedef struct t_Place Place;
@@ -33,6 +42,7 @@ struct t_Place{
     unsigned numberOfMinesNear;
     int mine;
     int state;
+    PlaceButton* button;
 };
 
 typedef struct t_Minefield Minefield;
@@ -43,6 +53,8 @@ struct t_Minefield{
     unsigned minesNumber;
     Place places[MAX_X][MAX_Y];
 };
+
+
 
 /* GLOBAL GAME STATE, 
    change only with following methods */
@@ -66,8 +78,8 @@ int moveWith(Minefield *field, int x, int y, int action);
 /* Simple controls, may be replaced by more advanced */
 int makeMove(Minefield *field);
 
-int makeFirstMove(Minefield *field);
+void makeFirstMove(Minefield *field, int x, int y, int action);
 
 /**/
 
-int play(Minefield *field);
+//int play(Minefield *field);
