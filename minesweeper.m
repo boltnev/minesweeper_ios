@@ -176,6 +176,7 @@ void drawField(Minefield *field){
         printf("\n");
     }
 }
+
 /**/
 void setGameState(int state){
 	g_gamestate = state;

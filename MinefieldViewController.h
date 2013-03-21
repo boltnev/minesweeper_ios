@@ -17,4 +17,8 @@
 
 - (void) showResults;
 
+- (void) redrawMinefield;
+
+- (void) setFlag: (PlaceButton *) sender ;
+
 @end

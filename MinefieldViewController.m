@@ -43,9 +43,9 @@
 
 - (void) placeButtons
 {
-    for(int i = 0; i < MINENUMBER; i++)
+    for(int i = 0; i < DEFAULT_X; i++)
     {
-        for(int j = 0; j < MINENUMBER; j++){
+        for(int j = 0; j < DEFAULT_Y; j++){
             /* TODO: refactor view and logic in the same place */
             PlaceButton * button = [[PlaceButton alloc ] initWithCoordX:i
                                                                  CoordY: j];
@@ -54,9 +54,11 @@
             button.frame = CGRectMake(BUTTONSIZE, BUTTONSIZE, BUTTONSIZE, BUTTONSIZE);
             [button setCenter:CGPointMake( BUTTONSIZE + i * BUTTONSIZE, BUTTONSIZE + j * BUTTONSIZE)];
             [button setImage: [UIImage imageNamed:@"place.png"] forState:UIControlStateNormal];
+            UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(setFlag:)];
+            [button addGestureRecognizer:longPress];
             [button addTarget:self action:@selector(clickPlaceAction:) forControlEvents:UIControlEventTouchUpInside];
-            
             [self.view addSubview:button];
+            [longPress release];
         }
     }
 }
@@ -78,21 +80,29 @@
 - (void) openPlaceOnX: (coordinate) xCoord
                   OnY: (coordinate) yCoord
 {
-    if(xCoord < 0 || xCoord >= self.gamefield->xSize ||
-       yCoord < 0 || yCoord >= self.gamefield->ySize)
-        return;
-    
+    moveWith(self.gamefield, xCoord, yCoord, OPEN_PLACE);
+    [self redrawMinefield];
+}
+
+- (void) redrawMinefield
+{
     Place currentPlace;
     PlaceButton *button;
-    moveWith(self.gamefield, xCoord, yCoord, OPEN_PLACE);
-    /**/
-    for(int i = 0; i < MINENUMBER; i++)
-        for(int j = 0; j < MINENUMBER; j++)
+    
+    for(int i = 0; i < DEFAULT_X; i++)
+        for(int j = 0; j < DEFAULT_Y; j++)
         {
             currentPlace = self.gamefield->places[i][j];
             button = currentPlace.button;
             if(currentPlace.state != VISIBLE)
+            {
+                if(currentPlace.state == FLAG)
+                    [button setImage:[UIImage imageNamed:@"place_flag.png" ] forState:UIControlStateNormal];
+                else
+                    [button setImage:[UIImage imageNamed:@"place.png" ] forState:UIControlStateNormal];
                 continue;
+            }
+            
             
             [button.titleLabel setFont:[UIFont systemFontOfSize:14.0f]];
             [button setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
@@ -123,11 +133,12 @@
                     
             }
         }
-        if (getGameState() != PLAY) {
-            [self showResults];
-        }
-}
+    if (getGameState() != PLAY) {
+        [self showResults];
+    }
 
+    
+}
 - (void) showResults{
     UILabel* gameResult = [[UILabel alloc] initWithFrame:CGRectMake((self.view.window.bounds.size.width / 2), 0.0, 150.0, 43.0) ];
     switch (getGameState()) {
@@ -151,6 +162,24 @@
     [gameResult setCenter: CGPointMake(self.view.window.bounds.size.width / 2, MINENUMBER * BUTTONSIZE + BUTTONSIZE * 2)];
     [self.view addSubview:gameResult ];
 }
+
+
+- (void) setFlag:(UILongPressGestureRecognizer *) gesture
+{
+    if (getGameState() != PLAY) {
+        return;
+    }
+    
+    PlaceButton* sender = gesture.view;
+    coordinate xCoord = sender.xCoord;
+    coordinate yCoord = sender.yCoord;
+    
+    if(gesture.state == UIGestureRecognizerStateBegan){
+        moveWith(self.gamefield, xCoord, yCoord, SET_FLAG);
+        [self redrawMinefield];
+    }
+}
+
 
 - (void)viewDidLoad
 {
