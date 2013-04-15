@@ -200,8 +200,16 @@
     restartButton.frame = CGRectMake(R_BUTOON_X, R_BUTOON_Y,R_BUTOON_X, R_BUTOON_Y);
     int centerX = self.view.window.bounds.size.width / 2;
     [restartButton setCenter:CGPointMake( centerX, BUTTONSIZE * DEFAULT_Y + R_BUTOON_Y)];
-    [self.view addSubview:restartButton];    //
-    //[restartButton release];
+    [restartButton setTitle:@"Play Again" forState:UIControlStateNormal ];
+    [restartButton addTarget:self action: @selector(restart) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:restartButton];
+}
+
+- (void) restart
+{
+    MinefieldViewController * mineFieldViewController = [[MinefieldViewController alloc] init];
+    self.view.window.rootViewController = mineFieldViewController;
+    [mineFieldViewController release ];        
 }
 
 - (void) setFlag:(UILongPressGestureRecognizer *) gesture
@@ -221,15 +229,10 @@
 }
 -(void) viewWillDisappear:(BOOL)animated
 {
-    for(int i = 0; i < DEFAULT_X; i++)
-    {
-        for(int j = 0; j < DEFAULT_Y; j++){
-            [gamefield->places[i][j].button release];
-        }
-    }
-    setGameState(WAITING);
-    free(self.gamefield);
+    [self clearMemory];
 }
+
+
 
 - (void)viewDidLoad
 {
@@ -237,6 +240,18 @@
     // Do any additional setup after loading the view from its nib.
 }
 
+- (void) clearMemory{
+    
+    for(int i = 0; i < DEFAULT_X; i++)
+    {
+        for(int j = 0; j < DEFAULT_Y; j++){
+            [gamefield->places[i][j].button release];
+        }
+    }
+    
+    setGameState(WAITING);
+    free(self.gamefield);
+}
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];

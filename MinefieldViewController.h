@@ -29,4 +29,6 @@
 
 - (void) restart;
 
+- (void) clearMemory;
+
 @end

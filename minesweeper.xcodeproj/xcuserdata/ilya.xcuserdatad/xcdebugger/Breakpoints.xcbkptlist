@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "MinefieldViewController.h"
-         timestampString = "387751408.363872"
+         timestampString = "387754314.700614"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "32"
-         endingLineNumber = "32"
+         startingLineNumber = "34"
+         endingLineNumber = "34"
          landmarkName = "@interface MinefieldViewController"
          landmarkType = "2">
       </FileBreakpoint>
