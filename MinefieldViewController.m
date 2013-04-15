@@ -26,6 +26,7 @@
         self.gamefield = malloc(sizeof(Minefield));
         makeGame(self.gamefield, DEFAULT_X, DEFAULT_Y, MINENUMBER);
         [self placeButtons];
+        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"pattern.png"]];
 }
     return self;
     
