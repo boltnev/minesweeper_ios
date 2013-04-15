@@ -22,10 +22,14 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    MinefieldViewController  * mineFieldView = [[MinefieldViewController alloc] init];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = mineFieldView;
+    //UINavigationController * navController = [[UINavigationController alloc] init];
+    MainMenuViewController  * mainMenuViewController = [[MainMenuViewController alloc] init];
+    //[navController pushViewController:mainMenuViewController animated:NO ];
+    //self.window.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"pattern.png"]];
+
+    self.window.rootViewController = mainMenuViewController;//navController;
     [self.window makeKeyAndVisible];
+    //[navController release];
     return YES;
 }
 

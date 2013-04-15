@@ -21,4 +21,12 @@
 
 - (void) setFlag: (PlaceButton *) sender ;
 
+- (void) showWinMessage;
+
+- (void) showFailMessage;
+
+- (void) showRestartButton;
+
+- (void) restart;
+
 @end

@@ -20,10 +20,12 @@
 		09D62F8F16F71FE600D84201 /* MainMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D62F8D16F71FE600D84201 /* MainMenuViewController.xib */; };
 		09D62F9116F72BD900D84201 /* place.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D62F9016F72BD900D84201 /* place.png */; };
 		09D62F9516FA51E500D84201 /* MinefieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D62F9316FA51E500D84201 /* MinefieldViewController.m */; };
-		09D62F9616FA51E500D84201 /* MinefieldViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D62F9416FA51E500D84201 /* MinefieldViewController.xib */; };
 		09D62F9816FA551400D84201 /* place_opened.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D62F9716FA551300D84201 /* place_opened.png */; };
 		09D62F9B16FA5C4300D84201 /* PlaceButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D62F9A16FA5C4300D84201 /* PlaceButton.m */; };
-		09D62F9E16FA613E00D84201 /* minesweeper.c in Sources */ = {isa = PBXBuildFile; fileRef = 09D62F9C16FA613E00D84201 /* minesweeper.c */; };
+		09D62F9E16FA613E00D84201 /* minesweeper.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D62F9C16FA613E00D84201 /* minesweeper.m */; };
+		09D62FA016FA6A4D00D84201 /* place_mine.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D62F9F16FA6A4C00D84201 /* place_mine.png */; };
+		09D62FA216FBA03100D84201 /* place_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D62FA116FBA03100D84201 /* place_flag.png */; };
+		09D62FA416FBC08700D84201 /* pattern.png in Resources */ = {isa = PBXBuildFile; fileRef = 09D62FA316FBC08600D84201 /* pattern.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,12 +48,14 @@
 		09D62F9016F72BD900D84201 /* place.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place.png; sourceTree = SOURCE_ROOT; };
 		09D62F9216FA51E500D84201 /* MinefieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MinefieldViewController.h; sourceTree = "<group>"; };
 		09D62F9316FA51E500D84201 /* MinefieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MinefieldViewController.m; sourceTree = "<group>"; };
-		09D62F9416FA51E500D84201 /* MinefieldViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MinefieldViewController.xib; sourceTree = "<group>"; };
 		09D62F9716FA551300D84201 /* place_opened.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place_opened.png; sourceTree = SOURCE_ROOT; };
 		09D62F9916FA5C4300D84201 /* PlaceButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceButton.h; sourceTree = "<group>"; };
 		09D62F9A16FA5C4300D84201 /* PlaceButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceButton.m; sourceTree = "<group>"; };
-		09D62F9C16FA613E00D84201 /* minesweeper.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = minesweeper.c; sourceTree = "<group>"; };
+		09D62F9C16FA613E00D84201 /* minesweeper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = minesweeper.m; sourceTree = "<group>"; };
 		09D62F9D16FA613E00D84201 /* minesweeper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = minesweeper.h; sourceTree = "<group>"; };
+		09D62F9F16FA6A4C00D84201 /* place_mine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place_mine.png; sourceTree = SOURCE_ROOT; };
+		09D62FA116FBA03100D84201 /* place_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = place_flag.png; sourceTree = SOURCE_ROOT; };
+		09D62FA316FBC08600D84201 /* pattern.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pattern.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,13 +75,12 @@
 		09D62F5816F6816F00D84201 = {
 			isa = PBXGroup;
 			children = (
-				09D62F9C16FA613E00D84201 /* minesweeper.c */,
+				09D62F9C16FA613E00D84201 /* minesweeper.m */,
 				09D62F9D16FA613E00D84201 /* minesweeper.h */,
 				09D62F9916FA5C4300D84201 /* PlaceButton.h */,
 				09D62F9A16FA5C4300D84201 /* PlaceButton.m */,
-				09D62F9216FA51E500D84201 /* MinefieldViewController.h */,
 				09D62F9316FA51E500D84201 /* MinefieldViewController.m */,
-				09D62F9416FA51E500D84201 /* MinefieldViewController.xib */,
+				09D62F9216FA51E500D84201 /* MinefieldViewController.h */,
 				09D62F8B16F71FE600D84201 /* MainMenuViewController.h */,
 				09D62F8C16F71FE600D84201 /* MainMenuViewController.m */,
 				09D62F8D16F71FE600D84201 /* MainMenuViewController.xib */,
@@ -118,6 +121,9 @@
 		09D62F6B16F6816F00D84201 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				09D62FA316FBC08600D84201 /* pattern.png */,
+				09D62FA116FBA03100D84201 /* place_flag.png */,
+				09D62F9F16FA6A4C00D84201 /* place_mine.png */,
 				09D62F9716FA551300D84201 /* place_opened.png */,
 				09D62F6C16F6816F00D84201 /* minesweeper-Info.plist */,
 				09D62F9016F72BD900D84201 /* place.png */,
@@ -188,8 +194,10 @@
 				09D62F7B16F6816F00D84201 /* Default-568h@2x.png in Resources */,
 				09D62F8F16F71FE600D84201 /* MainMenuViewController.xib in Resources */,
 				09D62F9116F72BD900D84201 /* place.png in Resources */,
-				09D62F9616FA51E500D84201 /* MinefieldViewController.xib in Resources */,
 				09D62F9816FA551400D84201 /* place_opened.png in Resources */,
+				09D62FA016FA6A4D00D84201 /* place_mine.png in Resources */,
+				09D62FA216FBA03100D84201 /* place_flag.png in Resources */,
+				09D62FA416FBC08700D84201 /* pattern.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,7 +213,7 @@
 				09D62F8E16F71FE600D84201 /* MainMenuViewController.m in Sources */,
 				09D62F9516FA51E500D84201 /* MinefieldViewController.m in Sources */,
 				09D62F9B16FA5C4300D84201 /* PlaceButton.m in Sources */,
-				09D62F9E16FA613E00D84201 /* minesweeper.c in Sources */,
+				09D62F9E16FA613E00D84201 /* minesweeper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +330,7 @@
 				09D62F8016F6816F00D84201 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

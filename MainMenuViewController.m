@@ -7,12 +7,24 @@
 //
 
 #import "MainMenuViewController.h"
+#import "MinefieldViewController.h"
 
 @interface MainMenuViewController ()
 
 @end
 
 @implementation MainMenuViewController
+
+/*- (id)init
+{
+    self = [super init];
+    if (self) {
+        //self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"pattern.png"]];
+    }
+    return self;
+    
+}*/
+
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -35,5 +47,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)startGame:(id)sender {
+    MinefieldViewController * mineFieldViewController = [[MinefieldViewController alloc] init];
+    self.view.window.rootViewController = mineFieldViewController;
+    [mineFieldViewController release ];
+}
+
 
 @end

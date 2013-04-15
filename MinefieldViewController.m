@@ -10,6 +10,9 @@
 
 #define BUTTONSIZE 28
 #define MINENUMBER 10
+#define R_BUTOON_X 200
+#define R_BUTOON_Y 100
+
 
 @interface MinefieldViewController ()
 
@@ -26,8 +29,7 @@
         self.gamefield = malloc(sizeof(Minefield));
         makeGame(self.gamefield, DEFAULT_X, DEFAULT_Y, MINENUMBER);
         [self placeButtons];
-        self.view.backgroundColor = [[UIColor alloc] initWithPatternImage:[UIImage imageNamed:@"pattern.png"]];
-}
+    }
     return self;
     
 }
@@ -54,11 +56,15 @@
             
             button.frame = CGRectMake(BUTTONSIZE, BUTTONSIZE, BUTTONSIZE, BUTTONSIZE);
             [button setCenter:CGPointMake( BUTTONSIZE + i * BUTTONSIZE, BUTTONSIZE + j * BUTTONSIZE)];
-            [button setImage: [UIImage imageNamed:@"place.png"] forState:UIControlStateNormal];
+            
+            UIImage *image = [UIImage imageNamed:@"place.png"];
+            
+            [button setBackgroundImage: image forState:UIControlStateNormal];
             UILongPressGestureRecognizer *longPress = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(setFlag:)];
             [button addGestureRecognizer:longPress];
             [button addTarget:self action:@selector(clickPlaceAction:) forControlEvents:UIControlEventTouchUpInside];
             [self.view addSubview:button];
+
             [longPress release];
         }
     }
@@ -97,10 +103,16 @@
             button = currentPlace.button;
             if(currentPlace.state != VISIBLE)
             {
-                if(currentPlace.state == FLAG)
-                    [button setImage:[UIImage imageNamed:@"place_flag.png" ] forState:UIControlStateNormal];
+                UIImage *image;
+                if(currentPlace.state == FLAG){
+                    image = [UIImage imageNamed:@"place_flag.png" ];
+                }
                 else
-                    [button setImage:[UIImage imageNamed:@"place.png" ] forState:UIControlStateNormal];
+                {
+                    image = [UIImage imageNamed:@"place.png"];
+                }
+                [button setBackgroundImage:image
+                        forState: UIControlStateNormal];
                 continue;
             }
             
@@ -111,7 +123,6 @@
             switch (currentPlace.mine) {
                 case MINE:
                 {
-                    [button setTitle: @"*" forState:UIControlStateNormal];
                     [button setImage:nil forState:UIControlStateNormal];
                     [button setBackgroundImage:[UIImage imageNamed:@"place_mine.png" ] forState:UIControlStateNormal];
                     
@@ -126,7 +137,6 @@
                         [button setTitle: [NSString stringWithFormat:@"%d", numberOfMines] forState:UIControlStateNormal];
                     }
                     
-                    [button setImage:nil forState:UIControlStateNormal];
                     [button setBackgroundImage:[UIImage imageNamed:@"place_opened.png" ] forState:UIControlStateNormal];
                     
                 }
@@ -137,33 +147,62 @@
     if (getGameState() != PLAY) {
         [self showResults];
     }
-
-    
 }
 - (void) showResults{
-    UILabel* gameResult = [[UILabel alloc] initWithFrame:CGRectMake((self.view.window.bounds.size.width / 2), 0.0, 150.0, 43.0) ];
+    /*UILabel* gameResult = [[UILabel alloc] initWithFrame:CGRectMake((self.view.window.bounds.size.width / 2), 0.0, 150.0, 43.0) ];*/
+    
     switch (getGameState()) {
         case WIN:
         {
-            [gameResult setTextColor: [UIColor redColor ]];
-            gameResult.text = @"You WIN!";
+            [self showWinMessage];
         }
             break;
         case FAIL:
         {
-            [gameResult setTextColor: [UIColor blueColor ]];
-            gameResult.text = @"You LOSE!";
+
+            [self showFailMessage ];
         }
             break;
             
         default:
             break;
     }
-    [gameResult setFont: [UIFont systemFontOfSize:20.0f] ];
-    [gameResult setCenter: CGPointMake(self.view.window.bounds.size.width / 2, MINENUMBER * BUTTONSIZE + BUTTONSIZE * 2)];
-    [self.view addSubview:gameResult ];
+    
+
+
 }
 
+- (void) showWinMessage{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Congratulations"
+                                                    message:@"You Win!"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+    [self showRestartButton];
+    [alert release];
+}
+
+- (void) showFailMessage{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Whoops"
+                                                    message:@"You Lose!"
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+    [self showRestartButton];
+    [alert release];
+}
+
+- (void) showRestartButton
+{
+    UIButton *restartButton =  [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    restartButton.frame = CGRectMake(R_BUTOON_X, R_BUTOON_Y,R_BUTOON_X, R_BUTOON_Y);
+    int centerX = self.view.window.bounds.size.width / 2;
+    [restartButton setCenter:CGPointMake( centerX, BUTTONSIZE * DEFAULT_Y + R_BUTOON_Y)];
+    [self.view addSubview:restartButton];    //
+    //[restartButton release];
+}
 
 - (void) setFlag:(UILongPressGestureRecognizer *) gesture
 {
@@ -171,16 +210,26 @@
         return;
     }
     
-    PlaceButton* sender = gesture.view;
+    PlaceButton* sender = (PlaceButton*) gesture.view;
     coordinate xCoord = sender.xCoord;
     coordinate yCoord = sender.yCoord;
     
     if(gesture.state == UIGestureRecognizerStateBegan){
         moveWith(self.gamefield, xCoord, yCoord, SET_FLAG);
         [self redrawMinefield];
-    }
+    }    
 }
-
+-(void) viewWillDisappear:(BOOL)animated
+{
+    for(int i = 0; i < DEFAULT_X; i++)
+    {
+        for(int j = 0; j < DEFAULT_Y; j++){
+            [gamefield->places[i][j].button release];
+        }
+    }
+    setGameState(WAITING);
+    free(self.gamefield);
+}
 
 - (void)viewDidLoad
 {
